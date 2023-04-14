@@ -35,7 +35,7 @@ function myNewItem() {
 
 ## Changing max tokens & temperature
 Change the settings for your OpenAI API call here:
-```
+```javascript
 function callOpenAiAPI(prompt, doc) {
   const body = doc.getBody();
   const temperature = 0.83;
